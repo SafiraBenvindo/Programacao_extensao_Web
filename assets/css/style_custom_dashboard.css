@@ -1,0 +1,83 @@
+/* 
+.divider {
+	color: white !important;
+}
+	ESSE BLOCO DEIXA O ICONE BRANCO
+*/
+
+/*
+	ESTOU INCREMENTANDO O ELEMENTO "PUSHER"
+*/
+.pusher {
+	padding-top: 3.2rem;
+}
+
+.grey {
+	background-color: #5b5b58 !important;
+}
+
+.grey-table {
+	border-top: .2em solid #5b5b58 !important;
+}
+
+.checkbox {
+	padding-top: 2.2em;
+}
+
+.ui.dimmer.modals.page {
+	padding-top: 20em;
+}
+
+.ui.breadcrumb {
+	font-size: 1.28571429rem;
+}
+
+.ui.toggle.checkbox input:checked~.box::before,
+.ui.toggle.checkbox input:checked~label::before {
+	background-color: #05d770 !important;
+}
+
+.ui.toggle.checkbox input:focus:checked~.box::before,
+.ui.toggle.checkbox input:focus:checked~label::before {
+	background-color: #05d770 !important;
+}
+
+.ui.toggle.checkbox input:focus~.box::before,
+.ui.toggle.checkbox input:focus~label::before {
+	background-color: #DB0505;
+	border: none;
+}
+
+.ui.toggle.checkbox label::before {
+	background: #DB0505;
+}
+
+.ui.toggle.checkbox .box:hover::before,
+.ui.toggle.checkbox label:hover::before {
+	background-color: #DB0505;
+	border: none;
+}
+
+.ui.toggle.checkbox input:focus~.box::before,
+.ui.toggle.checkbox input:focus~label::before {
+	background-color: #DB0505;
+	border: none;
+}
+
+@media only screen and (max-width: 767px) {
+	.ui.stackable.cards .card:first-child {
+		margin-top: 1em !important;
+	}
+
+	#displayMobile {
+		display: none;
+	}
+
+	.checkbox {
+		padding-bottom: 2.2em;
+	}
+
+	.ui.breadcrumb {
+		font-size: 1rem;
+	}
+}

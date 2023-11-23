@@ -1,0 +1,19 @@
+body {
+    background-color: #5b5b58;
+}
+
+body > .grid {
+    height: 100%;
+}
+
+.column {
+    max-width: 480px;
+}
+
+h2 {
+	color: white !important;
+}
+
+.grey {
+	background-color: #5b5b58 !important;
+}
